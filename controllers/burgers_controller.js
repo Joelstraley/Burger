@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/api/burgers', (req, res) => {
-  burger.insertOne(['name', 'vegan'], [req.body.name, req.body.vegan], (result) => {
+  burger.insertOne(['name', 'devoured'], [req.body.name, req.body.devoured], (result) => {
     res.json({ id: result.insertId });
   });
 });
@@ -26,7 +26,7 @@ router.put('/api/burgers/:id', (req, res) => {
 
   burger.updateOne(
     {
-      vegan: req.body.vegan,
+      devoured: req.body.devoured,
     },
     condition,
     (result) => {
