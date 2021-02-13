@@ -38,10 +38,10 @@ router.put('/api/burgers/:id', (req, res) => {
   );
 });
 
-router.deleteOne('/api/burgers/:id', (req, res) => {
+router.delete('/api/burgers/:id', (req, res) => {
   const condition = `id = ${req.params.id}`;
 
-  burger.deleteOne(condition, (result) => {
+  burger.delete(condition, (result) => {
     if (result.affectedRows === 0) {
       return res.status(404).end();
     }
