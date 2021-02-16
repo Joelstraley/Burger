@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         burger_name: document.getElementById('burger').value.trim(),
         devoured: document.getElementById('devoured').checked,
       };
-
       // Send POST request to create a new quote
       fetch('/api/burgers', {
         method: 'POST',

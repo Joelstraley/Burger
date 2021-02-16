@@ -28,6 +28,7 @@ const objToSql = (ob) => {
       // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
       // e.g. {sleepy: true} => ["sleepy=true"]
       arr.push(`${key}=${value}`);
+      console.log("orm", arr)
     }
   }
 
@@ -100,5 +101,4 @@ const orm = {
   },
 };
 
-// Export the orm object for the model (cat.js).
 module.exports = orm;
