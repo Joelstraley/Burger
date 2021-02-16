@@ -7,32 +7,36 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
+
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
-    color: black
-  }
+    color: black;
+   }
 
 button {
-  color: red;
+  color: black;
 }
   
   .label {
     font-weight: bold;
-    color: black
+    color: black;
   }
   
   .create-update-form {
     padding: 5px;
     margin: 5px;
     background: aqua;
-    color: black
+    color: black;
   }
   
   .form-group {
     margin-bottom: 5px;
-    color: black
+    color: black;
   }
 
 .img {
