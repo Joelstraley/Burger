@@ -11,6 +11,10 @@ h2 {
   text-align: center;
 }
 
+button{
+  background-color: #f5dd06;
+}
+
 
 li {
     padding: 5px;
@@ -30,13 +34,17 @@ button {
   .create-update-form {
     padding: 5px;
     margin: 5px;
-    background: aqua;
     color: black;
+    text-align: center;
   }
   
   .form-group {
     margin-bottom: 5px;
     color: black;
+  }
+
+  .addBurger {
+    text-align: center;
   }
 
 .img {
@@ -45,8 +53,8 @@ button {
     width: 100%;
 }
 
-.bottom {
+/* .bottom {
   align-items: center;
-}
+} */
   
   
