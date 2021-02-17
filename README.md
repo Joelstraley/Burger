@@ -15,8 +15,9 @@ n/a
 ## <a name="usage">Usage</a> 
 Deployed to Heroku
 
-Screenshot: 
-![alt text]()
+## Screenshot: 
+![alt text](https://github.com/Joelstraley/Burger/blob/master/public/assets/Burger%20App%20Screenshot.png?raw=true)
+
 ## <a name="License">License</a>
 This is free and unencumbered software released into the public domain.
     
