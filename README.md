@@ -2,7 +2,7 @@
 ## Description
 The Eat a Burger app displays burgers under the categories Eaten and Uneaten. You can click "Devour" to move a buger from the Uneaten category to the Eaten and vis a versa. At the bottom you can add your own burger to either category. You can also delete the burgers. 
 
-[View Live Site](https://pacific-everglades-73896.herokuapp.com/)
+[View Live Site](https://eatburgerz.herokuapp.com/)
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
